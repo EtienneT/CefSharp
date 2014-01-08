@@ -211,5 +211,11 @@ namespace CefSharp.WinForms
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
+
+        public virtual IMenuHandler MenuHandler
+        {
+            get { return browserCore.MenuHandler; }
+            set { browserCore.MenuHandler = value; }
+        }
     }
 }

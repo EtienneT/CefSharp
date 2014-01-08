@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CefSharp.WinForms.Example
 {
-    public partial class BrowserForm : Form
+    public partial class BrowserForm : Form, IMenuHandler
     {
         public event EventHandler ShowDevToolsActivated
         {
@@ -91,6 +91,7 @@ namespace CefSharp.WinForms.Example
             {
                 Dock = DockStyle.Fill
             };
+            webView.MenuHandler = this;
             toolStripContainer.ContentPanel.Controls.Add(webView);
         }
 
@@ -190,6 +191,11 @@ namespace CefSharp.WinForms.Example
         private void AboutToolStripMenuItemClick(object sender, EventArgs e)
         {
             new AboutBox().ShowDialog();
+        }
+
+        public bool OnBeforeContextMenu(IWebBrowser browser)
+        {
+            return false;
         }
     }
 }

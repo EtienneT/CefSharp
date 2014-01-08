@@ -212,48 +212,48 @@
             // undoMenuItem
             // 
             this.undoMenuItem.Name = "undoMenuItem";
-            this.undoMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.undoMenuItem.Size = new System.Drawing.Size(122, 22);
             this.undoMenuItem.Text = "Undo";
             // 
             // redoMenuItem
             // 
             this.redoMenuItem.Name = "redoMenuItem";
-            this.redoMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.redoMenuItem.Size = new System.Drawing.Size(122, 22);
             this.redoMenuItem.Text = "Redo";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(119, 6);
             // 
             // cutMenuItem
             // 
             this.cutMenuItem.Name = "cutMenuItem";
-            this.cutMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cutMenuItem.Size = new System.Drawing.Size(122, 22);
             this.cutMenuItem.Text = "Cut";
             // 
             // copyMenuItem
             // 
             this.copyMenuItem.Name = "copyMenuItem";
-            this.copyMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.copyMenuItem.Size = new System.Drawing.Size(122, 22);
             this.copyMenuItem.Text = "Copy";
             // 
             // pasteMenuItem
             // 
             this.pasteMenuItem.Name = "pasteMenuItem";
-            this.pasteMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pasteMenuItem.Size = new System.Drawing.Size(122, 22);
             this.pasteMenuItem.Text = "Paste";
             // 
             // deleteMenuItem
             // 
             this.deleteMenuItem.Name = "deleteMenuItem";
-            this.deleteMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.deleteMenuItem.Size = new System.Drawing.Size(122, 22);
             this.deleteMenuItem.Text = "Delete";
             // 
             // selectAllMenuItem
             // 
             this.selectAllMenuItem.Name = "selectAllMenuItem";
-            this.selectAllMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.selectAllMenuItem.Size = new System.Drawing.Size(122, 22);
             this.selectAllMenuItem.Text = "Select All";
             // 
             // BrowserForm
