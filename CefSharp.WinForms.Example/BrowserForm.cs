@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using CefSharp.Example;
 
 namespace CefSharp.WinForms.Example
 {
@@ -87,12 +88,14 @@ namespace CefSharp.WinForms.Example
             Text = "CefSharp";
             WindowState = FormWindowState.Maximized;
 
-            webView = new WebView("custom://cefsharp/home")
+            webView = new WebView(ExamplePresenter.DefaultUrl)
             {
                 Dock = DockStyle.Fill
             };
             webView.MenuHandler = this;
             toolStripContainer.ContentPanel.Controls.Add(webView);
+            
+            webView.MenuHandler = new MenuHandler();
         }
 
         public void SetTitle(string title)
